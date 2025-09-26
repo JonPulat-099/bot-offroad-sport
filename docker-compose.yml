@@ -7,9 +7,6 @@ services:
     restart: unless-stopped
     environment:
       - BOT_TOKEN=${BOT_TOKEN}
-      - GOOGLE_APPLICATION_CREDENTIALS=/app/service-key.json
-    volumes:
-      - ./service-key.json:/app/service-key.json:ro
     # Optional: mount logs directory
-    # volumes:
-    #   - ./logs:/app/logs
+    volumes:
+      - ./logs:/app/logs
