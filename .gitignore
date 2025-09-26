@@ -58,7 +58,12 @@ Thumbs.db
 
 # Google credentials
 service-key.json
-*.json
+
+# Environment
+.env
+
+# Docker
+.dockerignore
 
 # Logs
 *.log
