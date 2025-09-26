@@ -12,6 +12,7 @@ pyarrow==21.0.0
 pypdfium2==4.30.0
 pytesseract==0.3.13
 python-dateutil==2.9.0.post0
+python-telegram-bot==21.8
 pytz==2025.2
 six==1.17.0
 soupsieve==2.8
